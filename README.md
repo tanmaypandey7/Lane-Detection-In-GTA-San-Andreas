@@ -13,4 +13,4 @@ Status: To do
 
 Some results of the lane detection in action:
 
-https://github.com/tanmaypandey7/Self-Driving-Car-In-GTA-San-Andreas/blob/master/results/lane-detection-demo.mp4
+![](https://gph.is/g/aeGJmW4)
