@@ -1,4 +1,4 @@
-# Lane Detection In GTA San Andreas
+# Self Driving Car In GTA San Andreas
 
 This project comprises of the following steps:
 
