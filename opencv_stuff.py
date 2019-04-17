@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore")
 
 def canny(image):
 	gray=cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
-	blur=cv2.GaussianBlur(gray,(3,3),0)
+	blur=cv2.GaussianBlur(gray,(5,5),0)
 	canny=cv2.Canny(blur,50,100)
 	return canny
 
@@ -97,13 +97,18 @@ def main():
 	# 	print(i + 1)
 	# 	time.sleep(1)
 
-	last_time = time.time()
+	# fourcc = cv2.VideoWriter_fourcc(*'MJPG')
+	# out = cv2.VideoWriter('output.avi', fourcc, 20.0, (853, 652))
+
+	# last_time = time.time()
+
 	while True:
 		# PressKey(W)
 		screen = np.array(ImageGrab.grab(bbox=(40, 16, 853, 652)))
 
-		last_time = time.time()
+		# last_time = time.time()
 		new_screen = process_img(screen)
+		# out.write(new_screen)
 		cv2.imshow('window', new_screen)
 		# cv2.imshow('window',cv2.cvtColor(screen, cv2.COLOR_BGR2RGB))
 		if cv2.waitKey(25) & 0xFF == ord('q'):
