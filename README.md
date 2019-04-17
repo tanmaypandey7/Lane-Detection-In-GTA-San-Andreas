@@ -13,4 +13,4 @@ Status: To do
 
 Some results of the lane detection in action:
 
-![](https://media.giphy.com/media/4Tkh5NUKHkbJ6e54I8/giphy.gif)
+![](https://media.giphy.com/media/4EF5LSqg5Zjl33EInz/giphy.gif)
