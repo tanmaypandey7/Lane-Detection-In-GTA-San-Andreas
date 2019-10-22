@@ -6,7 +6,7 @@ from PIL import ImageGrab
 
 def main():
     while True:
-        screen = np.array(ImageGrab.grab(bbox=(40, 16, 750, 600)))
+        screen = np.array(ImageGrab.grab(bbox=(40, 16, 750, 550)))
         try:
             new_screen = process_img(screen)
             cv2.imshow('window', new_screen)
