@@ -1,5 +1,9 @@
 # Self Driving Car In GTA San Andreas
 
+## How To Run
+1. Install [DxWnd](https://sourceforge.net/projects/dxwnd/)
+2. Drag and drop gta_sa.exe from the installation directory to DxWnd.
+3. Launch the program from DxWnd.
 This project comprises of the following steps:
 
 ## 1. **Lane Detection**
